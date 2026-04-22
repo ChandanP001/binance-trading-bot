@@ -1,5 +1,4 @@
 # Binance Futures Testnet Trading Bot
-### Primetrade.ai — Python Developer Intern Assignment
 
 A lightweight Python CLI application that places orders on the **Binance Futures Testnet (USDT-M)** with clean 4-layer architecture, structured logging, and full error handling.
 
