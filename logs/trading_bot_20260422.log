@@ -1,0 +1,21 @@
+2026-04-22 09:18:57 | INFO     | trading_bot.cli | CLI COMMAND: place | symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None stop=None
+2026-04-22 09:18:57 | INFO     | trading_bot.client | BinanceFuturesClient initialised | mode=MOCK
+2026-04-22 09:18:57 | INFO     | trading_bot.client | PLACING ORDER | symbol=BTCUSDT | side=BUY | type=MARKET | qty=0.001 | price=None | stopPrice=None
+2026-04-22 09:18:57 | INFO     | trading_bot.client | MOCK | Generating simulated order response
+2026-04-22 09:18:57 | INFO     | trading_bot.client | MOCK ORDER PLACED | orderId=52884980 | status=FILLED
+2026-04-22 09:18:57 | INFO     | trading_bot.orders | ORDER SUCCESS | orderId=52884980 | status=FILLED
+2026-04-22 09:19:39 | INFO     | trading_bot.cli | CLI COMMAND: place | symbol=BTCUSDT side=SELL type=LIMIT qty=0.001 price=90000 stop=None
+2026-04-22 09:19:39 | INFO     | trading_bot.client | BinanceFuturesClient initialised | mode=MOCK
+2026-04-22 09:19:39 | INFO     | trading_bot.client | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=LIMIT | qty=0.001 | price=90000.0 | stopPrice=None
+2026-04-22 09:19:39 | INFO     | trading_bot.client | MOCK | Generating simulated order response
+2026-04-22 09:19:39 | INFO     | trading_bot.client | MOCK ORDER PLACED | orderId=97912869 | status=NEW
+2026-04-22 09:19:39 | INFO     | trading_bot.orders | ORDER SUCCESS | orderId=97912869 | status=NEW
+2026-04-22 09:19:52 | INFO     | trading_bot.cli | CLI COMMAND: place | symbol=BTCUSDT side=BUY type=STOP_MARKET qty=0.001 price=None stop=80000
+2026-04-22 09:19:52 | INFO     | trading_bot.client | BinanceFuturesClient initialised | mode=MOCK
+2026-04-22 09:19:52 | INFO     | trading_bot.client | PLACING ORDER | symbol=BTCUSDT | side=BUY | type=STOP_MARKET | qty=0.001 | price=None | stopPrice=80000.0
+2026-04-22 09:19:52 | INFO     | trading_bot.client | MOCK | Generating simulated order response
+2026-04-22 09:19:52 | INFO     | trading_bot.client | MOCK ORDER PLACED | orderId=13322584 | status=NEW
+2026-04-22 09:19:52 | INFO     | trading_bot.orders | ORDER SUCCESS | orderId=13322584 | status=NEW
+2026-04-22 09:20:05 | INFO     | trading_bot.cli | CLI COMMAND: account
+2026-04-22 09:20:05 | INFO     | trading_bot.client | BinanceFuturesClient initialised | mode=MOCK
+2026-04-22 09:20:05 | INFO     | trading_bot.client | MOCK | Returning simulated account balance
